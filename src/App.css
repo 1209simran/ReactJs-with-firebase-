@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-circle {
+  border-radius: 20px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857;
+}
+.no-padding {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 40px;
+}
+.image {
+  height: 75%;
+  width: 100%;
+}
+
+.image1 {
+  width: 100%;
+  height: 400%;
+  background-image: url("./images/untitled.png");
+  background-size: 100% 100%;
+}
+
+.wrapper {
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+
+  position: relative;
+}
+.top {
+  background: rgb(233, 233, 233);
+  height: 100%;
+  width: 130%;
+  position: absolute;
+  top: -10%;
+  left: -5%;
+  transform: rotate(4deg);
+}
+.text {
+  position: absolute;
+  top: 120px;
+  right: 25%;
+  left: 20%;
+  transform: rotate(-4deg);
+  font-size: 17px;
+  font-weight: 550;
+  text-align: right;
+}
+.left {
+  padding-left: 20px;
+  float: right;
+  height: 40%;
+  width: 40%;
+}
+
+.top1 {
+  background: rgb(233, 233, 233);
+  height: 100%;
+  width: 130%;
+  position: absolute;
+  bottom: -10%;
+  right: -5%;
+  transform: rotate(4deg);
+}
+.text1 {
+  position: absolute;
+  top: 120px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  left: 35%;
+  transform: rotate(-4deg);
+  font-size: 17px;
+  font-weight: bold;
+  text-align: left;
+}
+.left1 {
+  padding-right: 30px;
+  float: left;
+  height: 50%;
+  width: 50%;
+}
