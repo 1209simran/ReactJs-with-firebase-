@@ -1,3 +1,7 @@
+
+Used ReactJS to build the demo web page and FIREBASE for database layer to store the information from the contact form.
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
